@@ -1,17 +1,11 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-
+    <v-app-bar app color="rgb(0, 0, 255)" dark>
       <v-spacer></v-spacer>
 
       <v-btn text>
         <v-icon>mdi-login</v-icon>
         <span class="mr-2">Log in</span>
-        
       </v-btn>
       <v-btn text>
         <span class="mr-2">Log out</span>
@@ -21,7 +15,7 @@
 
     <!-- <v-content>
       <HelloWorld/>
-    </v-content> -->
+    </v-content>-->
   </v-app>
 </template>
 
@@ -29,7 +23,7 @@
 //import HelloWorld from './components/HelloWorld';
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     //HelloWorld,
@@ -37,6 +31,6 @@ export default {
 
   data: () => ({
     //
-  }),
+  })
 };
 </script>
